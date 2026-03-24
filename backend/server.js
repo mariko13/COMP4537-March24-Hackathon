@@ -1,7 +1,7 @@
 const http = require('http');
 const server = http.createServer((req, res) => {
     // CORS headers
-    res.setHeader('Access-Control-Allow-Origin', 'https://teal-fudge-30d20e.netlify.app/');
+    res.setHeader('Access-Control-Allow-Origin', 'https://teal-fudge-30d20e.netlify.app');
     res.setHeader('Access-Control-Allow-Credentials', 'true');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
